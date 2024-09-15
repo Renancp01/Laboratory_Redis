@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\WebApi\WebApi.csproj", "{32419CA0-76D4-4E4C-ABC2-94296B44B585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Redis", "src\Infra.Redis\Infra.Redis.csproj", "{A50A5172-ECEC-4B99-B315-318E79922540}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "src\Contracts\Contracts.csproj", "{89786FC4-26CC-4E94-87E9-26FBA5A8777C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "src\Benchmark\Benchmark.csproj", "{84D9723B-8EAF-4EFA-813B-2FF1626FB75A}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99C5CBCC-102A-45EF-B95A-3233F9E04847}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32419CA0-76D4-4E4C-ABC2-94296B44B585}.|Any CPU.ActiveCfg = Debug|Any CPU
+		{32419CA0-76D4-4E4C-ABC2-94296B44B585}.|Any CPU.Build.0 = Debug|Any CPU
+		{A50A5172-ECEC-4B99-B315-318E79922540}.|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50A5172-ECEC-4B99-B315-318E79922540}.|Any CPU.Build.0 = Debug|Any CPU
+		{89786FC4-26CC-4E94-87E9-26FBA5A8777C}.|Any CPU.ActiveCfg = Debug|Any CPU
+		{89786FC4-26CC-4E94-87E9-26FBA5A8777C}.|Any CPU.Build.0 = Debug|Any CPU
+		{84D9723B-8EAF-4EFA-813B-2FF1626FB75A}.|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D9723B-8EAF-4EFA-813B-2FF1626FB75A}.|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		|Any CPU = |Any CPU
+	EndGlobalSection
+EndGlobal
